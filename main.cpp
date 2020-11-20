@@ -3,13 +3,6 @@
 
 using namespace std;
 
-const string alf[4][10] = {
-    {" ", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"},//строка 0
-    {" ", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"},//строка 1
-    {" ", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"},//строка 2
-    {" ", "M", "MM", "MMM", "  ", " ", "  ", "   ", "    ", "  "} //строка 4
-};
-
 const char q[8] = {"IVXLCDM"};
 
 int per(char a)
